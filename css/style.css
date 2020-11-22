@@ -32,6 +32,10 @@ h6 {
 body {
   color: #2f3035;
   font-family: sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "SFProDisplay-Regular", sans-serif;
 }
 
 .container {
@@ -45,6 +49,8 @@ body {
   justify-content: space-between;
   align-items: center;
   min-height: 122px;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-weight: 700;
 }
 
 .menu__item {
@@ -53,4 +59,35 @@ body {
 
 .menu__item + .menu__item {
   padding-left: 50px;
+}
+
+.header__box {
+  display: flex;
+}
+
+.header__adress {
+  margin-right: 60px;
+  width: 265px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.header__adress::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/adress-icon.svg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  left: 0;
+  top: -10px;
+}
+
+.user-list {
+  margin-right: 15px;
+}
+
+.user-list__item {
+  display: inline-block;
+  padding-right: 10px;
 }
