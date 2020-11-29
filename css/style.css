@@ -11,6 +11,7 @@ html {
 a {
   text-decoration: none;
   color: inherit;
+  display: inline-block;
 }
 
 ul,
@@ -46,6 +47,10 @@ body {
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.page-section {
+  margin-bottom: 80px;
 }
 
 .header__top-inner {
