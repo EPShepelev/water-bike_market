@@ -402,11 +402,11 @@ body {
 
 .categories__item {
   margin-bottom: 30px;
-  background-color: #ffffff;
   border: 1px solid #cdcdcd;
   border-radius: 3px;
-  min-width: 370px;
+  width: 370px;
   padding: 20px;
+  display: flex;
   justify-content: space-between;
 }
 
