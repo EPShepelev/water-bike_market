@@ -393,3 +393,28 @@ body {
   border: none;
   margin-left: -3px;
 }
+
+.categories__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.categories__item {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  min-width: 370px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.categories__item-info {
+  width: 50%;
+}
+
+.categories__item-img {
+  width: 50%;
+  text-align: center;
+}
