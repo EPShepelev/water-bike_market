@@ -346,7 +346,7 @@ body {
   padding: 11px 26px 12px;
 }
 
-.search__tabs-item--active {
+.search__tabs-item.tab--active {
   border-radius: 5px;
   background-color: #f0f0f4;
   font-weight: 700;
@@ -357,7 +357,7 @@ body {
   display: none;
 }
 
-.search__content-item--active {
+.tabs__content.tabs__content--active {
   display: block;
 }
 
