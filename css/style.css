@@ -357,7 +357,7 @@ body {
   display: none;
 }
 
-.tabs__content.tabs__content--active {
+.search__content-item.tabs__content--active {
   display: block;
 }
 
