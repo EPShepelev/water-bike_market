@@ -454,3 +454,12 @@ body {
   content: url("../images/categories-arrow.svg");
   padding-left: 2px;
 }
+
+.product-item {
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  position: relative;
+  text-align: center;
+  padding: 52px 20px 31px;
+  width: 271px;
+}
