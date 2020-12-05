@@ -455,13 +455,16 @@ body {
   padding-left: 2px;
 }
 
+.product-item__wrapper {
+  position: relative;
+  width: 271px;
+}
+
 .product-item {
   border: 1px solid #cdcdcd;
   border-radius: 3px;
-  position: relative;
   text-align: center;
   padding: 52px 20px 31px;
-  width: 271px;
 }
 
 .product-item__title {
@@ -493,4 +496,18 @@ body {
 
 .product-item__favorite--active::before {
   background-image: url("../images/heart-active.svg");
+}
+
+.product-item__price {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #2f3035;
+}
+
+.product-item__basket {
+  position: absolute;
 }
