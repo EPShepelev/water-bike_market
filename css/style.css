@@ -466,6 +466,7 @@ body {
   text-align: center;
   padding: 52px 20px 31px;
   transition: all 0.3s;
+  min-height: 400px;
 }
 
 .product-item__title {
@@ -543,6 +544,10 @@ body {
   color: #1c62cd;
 }
 
+.product-item:hover .product-item__notify-text {
+  color: #2f3035;
+}
+
 .product-item--sale::before {
   content: "SALE";
   padding: 8px 15px;
@@ -555,4 +560,49 @@ body {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.07em;
+}
+
+.product-item__wrapper.product-item__not-avaliable .product-item__price {
+  display: none;
+}
+
+.product-item__notify-text {
+  display: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.product-item__wrapper.product-item__not-avaliable .product-item__notify-text {
+  display: block;
+}
+
+.product-item__wrapper.product-item__not-avaliable .product-item__basket {
+  display: none;
+}
+
+.product-item__notify-link {
+  display: none;
+}
+
+.product-item__wrapper.product-item__not-avaliable .product-item__title {
+  padding-bottom: 13px;
+}
+
+.product-item__wrapper.product-item__not-avaliable .product-item__notify-link {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c62cd;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.product-item__wrapper.product-item__not-avaliable
+  .product-item__notify-link
+  span {
+  border-bottom: 1px solid #1c62cd;
 }
