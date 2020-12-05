@@ -510,4 +510,13 @@ body {
 
 .product-item__basket {
   position: absolute;
+  width: 60px;
+  height: 40px;
+  background-color: #1c62cd;
+  border-radius: 10px 0px 0px 0px;
+  bottom: 0;
+  right: 0;
+  border: none;
+  padding-top: 7px;
+  cursor: pointer;
 }
