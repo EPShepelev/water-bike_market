@@ -606,3 +606,27 @@ body {
   span {
   border-bottom: 1px solid #1c62cd;
 }
+
+.products_title {
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.products__tab + .products__tab {
+  margin-left: 50px;
+}
+
+.products__tabs {
+  margin-bottom: 25px;
+}
+
+.products__tab {
+  padding-bottom: 10px;
+}
+
+.products__tab.tab--active {
+  border-bottom: 2px solid #1c62cd;
+}
