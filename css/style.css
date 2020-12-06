@@ -353,11 +353,11 @@ body {
   font-family: "SFProDisplay-Bold", sans-serif;
 }
 
-.search__content-item {
+.tabs__content {
   display: none;
 }
 
-.search__content-item.tabs__content--active {
+.tabs__content.tabs__content--active {
   display: block;
 }
 
