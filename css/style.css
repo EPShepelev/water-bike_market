@@ -179,7 +179,8 @@ body {
   max-width: 870px;
 }
 
-.banner-section__slider-btn {
+.banner-section__slider-btn,
+.product-slider__slider-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -225,7 +226,7 @@ body {
   cursor: pointer;
 }
 
-.slick-active button {
+.slick-active li button {
   background-color: #fff;
 }
 
@@ -629,4 +630,16 @@ body {
 
 .products__tab.tab--active {
   border-bottom: 2px solid #1c62cd;
+}
+
+.product-slider__slider-btnprev {
+  left: -40px;
+}
+
+.product-slider__slider-btnnext {
+  right: -40px;
+}
+
+.slick-slide img {
+  display: inline;
 }
