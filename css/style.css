@@ -644,9 +644,13 @@ body {
   display: inline;
 }
 
+.product {
+  margin-bottom: 80px;
+}
+
 .product__more {
   text-align: center;
-  margin: 35px 0 80px;
+  margin: 35px 0 0;
 }
 .product__more-link {
   font-size: 15px;
@@ -656,4 +660,8 @@ body {
   background-color: #f0f0f4;
   padding: 16px 43px;
   display: inline-block;
+}
+
+.banner {
+  margin-bottom: 80px;
 }
