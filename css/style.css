@@ -758,3 +758,31 @@ body {
 .social-list__item + .social-list__item {
   margin-left: 30px;
 }
+
+.breadcrumbs {
+  margin-bottom: 40px;
+}
+
+.breadcrumbs__list-item {
+  display: inline-block;
+  padding-right: 16px;
+  margin-right: 10px;
+  position: relative;
+  font-size: 15px;
+  line-height: 18px;
+  color: #c4c4c4;
+}
+
+.breadcrumbs__list-item::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 5px;
+  background-image: url("../images/categories-arrow.svg");
+  width: 6px;
+  height: 9px;
+}
+
+.breadcrumbs__list-item:last-child::after {
+  display: none;
+}
