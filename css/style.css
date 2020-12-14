@@ -786,3 +786,13 @@ body {
 .breadcrumbs__list-item:last-child::after {
   display: none;
 }
+
+.catalog {
+  margin-bottom: 100px;
+}
+
+.catalog__title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+}
