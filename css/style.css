@@ -758,3 +758,69 @@ body {
 .social-list__item + .social-list__item {
   margin-left: 30px;
 }
+
+.breadcrumbs {
+  margin-bottom: 40px;
+}
+
+.breadcrumbs__list-item {
+  display: inline-block;
+  padding-right: 16px;
+  margin-right: 10px;
+  position: relative;
+  font-size: 15px;
+  line-height: 18px;
+  color: #c4c4c4;
+}
+
+.breadcrumbs__list-item::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 5px;
+  background-image: url("../images/categories-arrow.svg");
+  width: 6px;
+  height: 9px;
+}
+
+.breadcrumbs__list-item:last-child::after {
+  display: none;
+}
+
+.catalog {
+  margin-bottom: 100px;
+}
+
+.catalog__title {
+  font-weight: bold;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 26px;
+}
+
+.catalog__filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.catalog__filters-items button {
+  font-size: 14px;
+  line-height: 17px;
+  opacity: 0.7;
+  border-radius: 3px;
+  border: none;
+  background-color: #f0f0f4;
+  padding: 5px 22px;
+  cursor: pointer;
+}
+
+.catalog__filters-items button + button {
+  margin-left: 8px;
+}
+
+.catalog__filters-btngrid {
+}
+.catalog__filters-btnline {
+}
