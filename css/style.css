@@ -889,4 +889,20 @@ body {
 }
 
 .aside-filter__tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside-filter__tab {
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #c4c4c4;
+  width: 50%;
+}
+
+.aside-filter__tab.tab--active {
 }
