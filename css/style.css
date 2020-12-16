@@ -894,8 +894,7 @@ body {
 }
 
 .aside-filter__tab {
-  font-family: "SFProDisplay-Bold", sans-serif;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.09em;
@@ -905,4 +904,13 @@ body {
 }
 
 .aside-filter__tab.tab--active {
+  color: #2f3035;
+  font-weight: 700;
+  font-family: "SFProDisplay-Bold", sans-serif;
+}
+
+.aside-filter__tab.tab--active span {
+  display: inline-block;
+  border-bottom: 2px solid #1c62cd;
+  padding-bottom: 7px;
 }
