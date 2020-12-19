@@ -31,4 +31,6 @@ $(function () {
   });
 
   $(".product-slider").slick({});
+
+  $(".filter-style").styler();
 });
