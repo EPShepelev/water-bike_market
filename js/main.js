@@ -31,4 +31,11 @@ $(function () {
   });
 
   $(".product-slider").slick({});
+
+  $(".filter-style").styler();
+
+  $(".filter__item-drop").on("click", function () {
+    $(this).toggleClass("filter__item-drop--active");
+    $(this).next().slideToggle("200");
+  });
 });
