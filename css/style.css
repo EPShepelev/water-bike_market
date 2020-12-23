@@ -975,5 +975,18 @@ body {
   margin: 0 8px 0 0;
 }
 
-.jq-checkbox .jq-radio {
+.jq-checkbox.checked,
+.jq-radio.checked {
+  background-color: #1c62cd;
+  border: none;
+}
+
+.jq-checkbox.checked .jq-checkbox__div {
+  width: 8px;
+  height: 6px;
+  margin: 4px 0 0 3px;
+  transform: rotate(0);
+  border-bottom: none;
+  border-left: none;
+  background-image: url("../images/checked-icon.svg");
 }
