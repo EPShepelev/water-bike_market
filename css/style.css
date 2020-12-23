@@ -928,7 +928,6 @@ body {
 }
 
 .filter__item-drop {
-  margin-bottom: 20px;
   position: relative;
   cursor: pointer;
 }
@@ -951,6 +950,7 @@ body {
 .aside-filter__content {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .aside-filter__content-box {
