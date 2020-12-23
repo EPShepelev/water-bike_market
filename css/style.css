@@ -950,6 +950,7 @@ body {
 
 .aside-filter__content {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .aside-filter__content-box {
@@ -989,4 +990,17 @@ body {
   border-bottom: none;
   border-left: none;
   background-image: url("../images/checked-icon.svg");
+}
+
+.jq-radio.checked .jq-radio__div {
+  width: 0;
+  height: 0;
+  margin: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+aside-filter__content.aside-filter__content-radio {
+  flex-wrap: nowrap;
 }
