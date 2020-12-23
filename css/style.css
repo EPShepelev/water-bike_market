@@ -1004,3 +1004,75 @@ body {
 aside-filter__content.aside-filter__content-radio {
   flex-wrap: nowrap;
 }
+
+.irs--flat {
+  width: 100%;
+  margin-top: -15px;
+}
+
+.irs--flat .irs-from,
+.irs--flat .irs-to,
+.irs--flat .irs-single {
+  display: none;
+}
+
+.irs--flat .irs-min,
+.irs--flat .irs-max {
+  top: 55px;
+  padding: 0;
+  padding-left: 27px;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: underline;
+  color: #2f3035;
+  text-shadow: none;
+  background-color: transparent;
+  border-radius: 0;
+  visibility: visible !important;
+}
+
+.irs-min::before,
+.irs-max::before {
+  position: absolute;
+  left: 0;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c4c4c4;
+}
+
+.irs-min::before {
+  content: "от";
+}
+
+.irs-max::before {
+  content: "до";
+}
+
+.irs--flat .irs-line {
+  top: 25px;
+  height: 1px;
+  background-color: #e0e0e0;
+  border-radius: 0;
+}
+
+.irs--flat .irs-bar {
+  top: 25px;
+  height: 3px;
+  background-color: #1c62cd;
+}
+
+.irs--flat .irs-handle {
+  top: 22px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #1c62cd;
+}
+
+.irs--flat .irs-handle > i:first-child,
+.irs--flat .irs-handle.state_hover > i:first-child,
+.irs--flat .irs-handle:hover > i:first-child {
+  background-color: transparent;
+}
