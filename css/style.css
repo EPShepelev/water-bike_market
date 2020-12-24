@@ -1079,4 +1079,18 @@ aside-filter__content.aside-filter__content-radio {
 
 .aside-filter__item-list {
   margin: 80px 0 40px;
+  border-bottom: 2px solid #c4c4c4;
+}
+
+.filter__item-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter__item-listtitle {
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 14px;
 }
