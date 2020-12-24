@@ -1094,3 +1094,24 @@ aside-filter__content.aside-filter__content-radio {
   line-height: 19px;
   padding-bottom: 14px;
 }
+
+.filter__item-listselect {
+  font-size: 14px;
+  line-height: 17px;
+  color: #48494d;
+  font-family: "Barlow", sans-serif;
+}
+
+.jq-selectbox__select {
+  font-size: 14px;
+  line-height: 17px;
+  color: #48494d;
+  font-family: "Barlow", sans-serif;
+  height: 32px;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+}
