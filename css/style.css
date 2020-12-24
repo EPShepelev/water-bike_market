@@ -1076,3 +1076,7 @@ aside-filter__content.aside-filter__content-radio {
 .irs--flat .irs-handle:hover > i:first-child {
   background-color: transparent;
 }
+
+.aside-filter__item-list {
+  margin: 80px 0 40px;
+}
