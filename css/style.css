@@ -1076,3 +1076,42 @@ aside-filter__content.aside-filter__content-radio {
 .irs--flat .irs-handle:hover > i:first-child {
   background-color: transparent;
 }
+
+.aside-filter__item-list {
+  margin: 80px 0 40px;
+  border-bottom: 2px solid #c4c4c4;
+}
+
+.filter__item-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter__item-listtitle {
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 14px;
+}
+
+.filter__item-listselect {
+  font-size: 14px;
+  line-height: 17px;
+  color: #48494d;
+  font-family: "Barlow", sans-serif;
+}
+
+.jq-selectbox__select {
+  font-size: 14px;
+  line-height: 17px;
+  color: #48494d;
+  font-family: "Barlow", sans-serif;
+  height: 32px;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+}
