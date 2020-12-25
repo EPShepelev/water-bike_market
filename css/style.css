@@ -1143,3 +1143,8 @@ aside-filter__content.aside-filter__content-radio {
   height: 0;
   border: none;
 }
+
+.jq-selectbox li:hover {
+  background: rgba(107, 126, 172, 0.05);
+  color: rgba(0, 0, 0, 0.6);
+}
