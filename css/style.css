@@ -1078,10 +1078,11 @@ aside-filter__content.aside-filter__content-radio {
 }
 
 .aside-filter__item-list {
-  margin: 80px 0 40px;
+  margin: 46px 0 40px;
 }
 
 .filter__item-list {
+  padding-top: 34px;
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid #c4c4c4;
@@ -1093,6 +1094,7 @@ aside-filter__content.aside-filter__content-radio {
   font-size: 16px;
   line-height: 19px;
   padding-bottom: 14px;
+  padding-left: 26px;
 }
 
 .filter__item-listselect {
@@ -1108,7 +1110,7 @@ aside-filter__content.aside-filter__content-radio {
   color: #48494d;
   font-family: "Barlow", sans-serif;
   height: 20px;
-  padding: 0 30px 0 10px;
+  padding: 0 25px 0 10px;
   border-radius: 0;
   background: transparent;
   box-shadow: none;
