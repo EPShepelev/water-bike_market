@@ -1148,3 +1148,13 @@ aside-filter__content.aside-filter__content-radio {
   background: rgba(107, 126, 172, 0.05);
   color: rgba(0, 0, 0, 0.6);
 }
+
+.jq-selectbox li.selected {
+  background: rgba(107, 126, 172, 0.05);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.jq-selectbox__dropdown {
+  border-radius: 0;
+  padding-top: 15px;
+}
