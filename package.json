@@ -1,0 +1,19 @@
+{
+  "name": "water-bike_market",
+  "version": "1.0.0",
+  "description": " water-bike market site, learning project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EPShepelev/water-bike_market.git"
+  },
+  "author": "Shepelev Evgeniy <shepelev.ep@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EPShepelev/water-bike_market/issues"
+  },
+  "homepage": "https://github.com/EPShepelev/water-bike_market#readme"
+}
