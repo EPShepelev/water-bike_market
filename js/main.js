@@ -42,4 +42,20 @@ $(function () {
     min: 100000,
     max: 500000,
   });
+
+  $(".catalog__filters-btngrid").on("click", function () {
+    $(this).addClass("catalog__filters-button--active");
+    $(".catalog__filters-btnline").removeClass(
+      "catalog__filters-button--active"
+    );
+    $(".product-item__wrapper").removeClass("product-item__wrapper--list");
+  });
+
+  $(".catalog__filters-btnline").on("click", function () {
+    $(this).addClass("catalog__filters-button--active");
+    $(".catalog__filters-btngrid").removeClass(
+      "catalog__filters-button--active"
+    );
+    $(".product-item__wrapper").addClass("product-item__wrapper--list");
+  });
 });
