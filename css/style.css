@@ -1191,3 +1191,49 @@ aside-filter__content.aside-filter__content-radio {
 .filter-search::placeholder {
   color: #bdbec2;
 }
+
+.btn-checked .aside-filter__content {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.btn-checked .aside-filter__content-box {
+  width: auto;
+}
+.btn-checked .aside-filter__content-label {
+  position: relative;
+  width: 62px;
+  height: 25px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.07em;
+  font-weight: bold;
+  color: #c4c4c4;
+}
+
+.btn-checked .jq-checkbox {
+  background: #f0f0f4;
+  width: 62px;
+  height: 25px;
+  border: none;
+}
+
+.btn-checked .jq-checkbox.checked {
+  background: #1c62cd;
+}
+
+.btn-checked .jq-checkbox.checked ~ .btn-checked__text {
+  color: #fff;
+}
+
+.btn-checked .jq-checkbox.checked .jq-checkbox__div {
+  display: none;
+}
+
+.btn-checked__text {
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  transform: translateX(-57%);
+  z-index: 5;
+}
