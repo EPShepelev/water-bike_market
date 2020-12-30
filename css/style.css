@@ -1469,3 +1469,7 @@ aside-filter__content.aside-filter__content-radio {
   border: none;
   cursor: pointer;
 }
+
+.product-card__buttons a + a {
+  margin-left: 30px;
+}
