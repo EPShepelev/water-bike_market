@@ -1334,6 +1334,10 @@ aside-filter__content.aside-filter__content-radio {
   cursor: pointer;
 }
 
+.product-card {
+  margin-bottom: 80px;
+}
+
 .product-card__inner {
   display: flex;
   justify-content: space-between;
@@ -1344,13 +1348,21 @@ aside-filter__content.aside-filter__content-radio {
   padding-top: 64px;
   text-align: center;
   font-family: "Barlow", sans-serif;
+  position: relative;
+}
+
+.product-card__img-box::before {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.12em;
+  padding: 13px 25px;
+  border-radius: 3px;
 }
 
 .product-card__old {
   font-size: 30px;
-  line-height: 36px;
+  line-height: 44px;
   opacity: 0.6;
-  margin-bottom: 6px;
   display: inline-block;
   background-image: url("../images/line-price-old.svg");
   background-repeat: no-repeat;
