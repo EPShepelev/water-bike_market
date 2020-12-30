@@ -111,7 +111,7 @@
     <section class="product-card">
       <div class="container">
         <div class="product-card__inner">
-          <div class="product-card__img-box">
+          <div class="product-card__img-box product-item--sale">
             <img
               class="product-card__img"
               src="images/content/waterbike-large.png"
@@ -129,13 +129,15 @@
             </h1>
             <p class="product-card__code">Код товара: 366666-2</p>
             <div class="product-card__buttons">
-              <button class="product-card__icon-favorite">
+              <a class="product-card__icon-favorite" href="#">
                 <img src="images/heart.svg" alt="heart" />
-              </button>
-              <button class="product-card__icon-comparsion">
-                <img src="images/comparsion.svg" alt="" />
-              </button>
-              <div class="rate"></div>
+              </a>
+              <a class="product-card__icon-comparsion">
+                <img src="images/comparsion.svg" alt="compare rating" />
+              </a>
+              <a class="rate" href="#">
+                <div class="rate-yo" data-rateyo-rating="4"></div>
+              </a>
             </div>
             <div class="tabs-wrapper product-card__tabs">
               <div class="tabs">
@@ -178,7 +180,9 @@
                     </li>
                   </ul>
                   <a class="product-card__more" href="#">Показать еще</a>
-                  <button class="product-card__btn">купить</button>
+                  <div class="product-card__btn">
+                    <button>купить</button>
+                  </div>
                 </div>
                 <div
                   id="availability"

@@ -58,4 +58,10 @@ $(function () {
     );
     $(".product-item__wrapper").addClass("product-item__wrapper--list");
   });
+
+  $(".rate-yo").rateYo({
+    normalFill: "#c4c4c4",
+    ratedFill: "#1c62cd",
+    spacing: "7px",
+  });
 });
