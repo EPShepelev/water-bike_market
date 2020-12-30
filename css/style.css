@@ -1334,8 +1334,44 @@ aside-filter__content.aside-filter__content-radio {
   cursor: pointer;
 }
 
-.catalog__filters-btngrid {
+.product-card__inner {
+  display: flex;
+  justify-content: space-between;
 }
 
-.catalog__filters-btnline {
+.product-card__img-box {
+  width: 500px;
+  padding-top: 64px;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+
+.product-card__old {
+  font-size: 30px;
+  line-height: 36px;
+  opacity: 0.6;
+  margin-bottom: 6px;
+  display: inline-block;
+  background-image: url("../images/line-price-old.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.product-card__new {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 17px;
+}
+
+.product-card__link {
+  border-bottom: 1px solid#1C62CD;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1c62cd;
+}
+
+.product-card__content {
+  width: 570px;
 }
