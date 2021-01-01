@@ -1494,3 +1494,30 @@ aside-filter__content.aside-filter__content-radio {
   opacity: 1;
   border-bottom: 2px solid #1c62cd;
 }
+
+.card__top-line {
+  margin-bottom: 10px;
+}
+
+.card__label-search {
+  font-size: 17px;
+  line-height: 20px;
+  color: rgb(47, 48, 53, 0.7);
+}
+
+.card__input-search {
+  background: #f0f0f4;
+  margin-left: 17px;
+  border-radius: 3px;
+  padding: 9px 37px 9px 17px;
+  border: none;
+  margin-right: 100px;
+}
+
+.card__label-pickup {
+  margin-left: 54px;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 20px;
+  color: rgb(47, 48, 53, 0.7);
+}
