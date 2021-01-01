@@ -1521,3 +1521,29 @@ aside-filter__content.aside-filter__content-radio {
   line-height: 20px;
   color: rgb(47, 48, 53, 0.7);
 }
+
+.card__list-item {
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(47, 48, 55, 0.1);
+  display: flex;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgb(47, 48, 53, 0.7);
+}
+
+.card__list-address {
+  width: 219px;
+  margin-right: 81px;
+}
+
+.card__list-workhours {
+}
+
+.card__list-available {
+}
+
+.card__list-quantity {
+}
+
+.card__list-btn {
+}
