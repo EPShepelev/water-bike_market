@@ -1474,6 +1474,10 @@ aside-filter__content.aside-filter__content-radio {
   margin-left: 30px;
 }
 
+.card__tabs {
+  margin-bottom: 100px;
+}
+
 .card__tab-box {
   display: flex;
   justify-content: space-around;
@@ -1531,19 +1535,49 @@ aside-filter__content.aside-filter__content-radio {
   color: rgb(47, 48, 53, 0.7);
 }
 
+.card__list-itemtitle {
+  font-size: 20px;
+  line-height: 24px;
+  color: #2f3035;
+}
+
 .card__list-address {
-  width: 219px;
-  margin-right: 81px;
+  width: 220px;
+  margin-right: 80px;
 }
 
 .card__list-workhours {
+  width: 157px;
+  margin-right: 96px;
+}
+
+.workhours {
+  display: flex;
+  justify-content: space-between;
 }
 
 .card__list-available {
+  width: 140px;
+  margin-right: 60px;
 }
 
 .card__list-quantity {
+  width: 104px;
 }
 
 .card__list-btn {
+  margin-left: auto;
+}
+
+.card__list-btn button {
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+  padding: 9px 40px;
+  text-transform: uppercase;
+  background-color: #1c62cd;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
 }
