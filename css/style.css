@@ -1473,3 +1473,24 @@ aside-filter__content.aside-filter__content-radio {
 .product-card__buttons a + a {
   margin-left: 30px;
 }
+
+.card__tab-box {
+  display: flex;
+  justify-content: space-around;
+  background: #f0f0f4;
+  align-items: center;
+  padding: 22px 0;
+  margin-bottom: 50px;
+}
+
+.card__tab {
+  font-size: 20px;
+  line-height: 24px;
+  color: #2f3035;
+  opacity: 0.6;
+}
+
+.card__tab.tab--active {
+  opacity: 1;
+  border-bottom: 2px solid #1c62cd;
+}
