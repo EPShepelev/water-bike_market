@@ -61,6 +61,9 @@ body {
   font-family: "SFProDisplay-Bold", sans-serif;
   font-weight: 700;
 }
+.menu__btn {
+  display: none;
+}
 
 .menu__item {
   display: inline-block;
@@ -118,8 +121,8 @@ body {
   background-color: #1c62cd;
   border-radius: 50%;
   text-align: center;
-  bottom: -15px;
-  right: -14px;
+  bottom: -2px;
+  right: -13px;
 }
 
 .header__bottom {
