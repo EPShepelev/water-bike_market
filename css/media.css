@@ -14,4 +14,23 @@
   .menu__list {
     display: none;
   }
+  .menu__btn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .menu__btn-line {
+    width: 34px;
+    height: 3px;
+    background: #2f3035;
+    border-radius: 3px;
+    margin: 8px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__adress {
+    display: none;
+  }
 }
