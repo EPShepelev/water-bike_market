@@ -41,6 +41,8 @@ body {
   line-height: 24px;
   font-weight: 400;
   font-family: "SFProDisplay-Regular", sans-serif;
+  overflow-x: hidden;
+  min-width: 320px;
 }
 
 .container {
@@ -71,6 +73,14 @@ body {
 
 .menu__item + .menu__item {
   padding-left: 50px;
+}
+
+.menu-mobile__list {
+  display: none;
+}
+
+.menu-mobile__linewrapper {
+  display: none;
 }
 
 .header__box {
