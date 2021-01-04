@@ -110,6 +110,13 @@
   .banner-section__slider-btn {
     display: none;
   }
+  .mobile-overflow {
+    width: 1000px;
+  }
+
+  .tabs__wrapper {
+    overflow-x: scroll;
+  }
 }
 
 @media (max-width: 640px) {
