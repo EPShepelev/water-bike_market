@@ -3,11 +3,17 @@
     min-height: 380px;
     max-width: 600px;
   }
+
   .banner-section__inner {
     justify-content: space-around;
   }
+
   .banner-section__slider {
     max-width: 600px;
+  }
+
+  .categories__inner {
+    justify-content: space-around;
   }
 }
 
@@ -15,6 +21,7 @@
   .menu__item + .menu__item {
     padding-left: 20px;
   }
+
   .header__adress {
     margin-right: 20px;
   }
@@ -24,9 +31,11 @@
   .header__bottom {
     display: none;
   }
+
   .menu__list {
     display: none;
   }
+
   .menu__btn {
     display: block;
     background-color: transparent;
@@ -34,6 +43,7 @@
     cursor: pointer;
     padding: 0;
   }
+
   .menu__btn-line {
     width: 34px;
     height: 3px;
@@ -159,5 +169,9 @@
 @media (max-width: 440px) {
   .banner-section__slider-img {
     min-height: 164px;
+  }
+
+  .categories__item {
+    padding: 20px 10px 16px;
   }
 }
