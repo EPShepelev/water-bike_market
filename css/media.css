@@ -1,7 +1,27 @@
+@media (max-width: 1200px) {
+  .banner-section__slider-img {
+    min-height: 380px;
+    max-width: 600px;
+  }
+
+  .banner-section__inner {
+    justify-content: space-around;
+  }
+
+  .banner-section__slider {
+    max-width: 600px;
+  }
+
+  .categories__inner {
+    justify-content: space-around;
+  }
+}
+
 @media (max-width: 1100px) {
   .menu__item + .menu__item {
     padding-left: 20px;
   }
+
   .header__adress {
     margin-right: 20px;
   }
@@ -11,9 +31,11 @@
   .header__bottom {
     display: none;
   }
+
   .menu__list {
     display: none;
   }
+
   .menu__btn {
     display: block;
     background-color: transparent;
@@ -21,6 +43,7 @@
     cursor: pointer;
     padding: 0;
   }
+
   .menu__btn-line {
     width: 34px;
     height: 3px;
@@ -75,10 +98,80 @@
   .menu-mobile__line {
     width: 450px;
   }
+  .banner-section__inner {
+    margin-top: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .banner-section__slider-img {
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .banner-section__slider {
+    max-width: 100%;
+  }
+
+  .banner-section__slider-item {
+    text-align: center;
+  }
+
+  .banner-section__slider-btn {
+    display: none;
+  }
+  .mobile-overflow {
+    width: 1000px;
+  }
+
+  .tabs__wrapper {
+    overflow-x: scroll;
+  }
 }
 
 @media (max-width: 640px) {
   .header__adress {
     display: none;
+  }
+
+  .banner-section__slider-img {
+    min-height: 200px;
+  }
+
+  .banner-section .container {
+    padding: 0;
+  }
+  .search__content-btn {
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    background-image: url("../images/search-icon.svg");
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    padding: 17px;
+    position: absolute;
+    right: 8px;
+    top: 13px;
+  }
+
+  .search__content-input {
+    height: 50px;
+    padding-right: 50px;
+  }
+
+  .search__content-form {
+    position: relative;
+  }
+}
+
+@media (max-width: 440px) {
+  .banner-section__slider-img {
+    min-height: 164px;
+  }
+
+  .categories__item {
+    padding: 20px 10px 16px;
   }
 }
