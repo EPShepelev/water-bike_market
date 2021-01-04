@@ -131,6 +131,29 @@
   .banner-section .container {
     padding: 0;
   }
+  .search__content-btn {
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    background-image: url("../images/search-icon.svg");
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    padding: 17px;
+    position: absolute;
+    right: 8px;
+    top: 13px;
+  }
+
+  .search__content-input {
+    height: 50px;
+    padding-right: 50px;
+  }
+
+  .search__content-form {
+    position: relative;
+  }
 }
 
 @media (max-width: 440px) {
