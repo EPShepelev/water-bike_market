@@ -44,6 +44,24 @@ $(function () {
           dots: true,
         },
       },
+      {
+        breakpoint: 1201,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 870,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 590,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
     ],
   });
 
