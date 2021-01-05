@@ -41,6 +41,7 @@ $(function () {
         breakpoint: 1301,
         settings: {
           arrows: false,
+          dots: true,
         },
       },
     ],
