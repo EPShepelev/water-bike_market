@@ -193,18 +193,33 @@
   .footer__top-item {
     width: 100%;
   }
+
   .footer__bottom {
     flex-direction: column;
     align-items: start;
   }
+
   .footer__bottom-link {
     margin: 12px 0;
   }
+
   .footer__top-inner {
     justify-content: start;
   }
-  .footer__top-item .footer__top-newsletter {
-    margin-right: 0;
+
+  .footer__top-item.footer__top-newsletter {
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    text-align: center;
+  }
+
+  .footer__top-item.footer__top-social {
+    width: 100%;
+  }
+
+  .social-list {
+    justify-content: center;
   }
 }
 
