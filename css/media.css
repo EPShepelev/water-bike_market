@@ -133,7 +133,8 @@
     width: 1000px;
   }
 
-  .tabs__wrapper {
+  .tabs__wrapper,
+  .breadcrumbs__inner {
     overflow-x: scroll;
   }
 }
