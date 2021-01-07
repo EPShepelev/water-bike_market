@@ -153,6 +153,14 @@
     font-weight: 700;
     text-align: center;
     padding: 15px 0;
+    width: 100%;
+    color: #fff;
+    background-color: #1c62cd;
+    margin-bottom: 30px;
+  }
+
+  aside-filter {
+    display: none;
   }
 }
 
