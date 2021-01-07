@@ -317,4 +317,8 @@
   .categories__item {
     padding: 20px 10px 16px;
   }
+
+  .pagination-list__item {
+    margin: 0;
+  }
 }
