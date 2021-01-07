@@ -146,6 +146,14 @@
   .tabs__wrapper.tabs-wrapper--no-scroll {
     overflow: hidden;
   }
+
+  .aside__btn {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0;
+  }
 }
 
 @media (max-width: 940px) {
