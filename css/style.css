@@ -1616,3 +1616,7 @@ aside-filter__content.aside-filter__content-radio {
   background-color: #1c62cd;
   outline: none;
 }
+
+.product-card__btn-mobile {
+  display: none;
+}
