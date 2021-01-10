@@ -1620,3 +1620,7 @@ aside-filter__content.aside-filter__content-radio {
 .product-card__btn-mobile {
   display: none;
 }
+
+.footer__topdrop {
+  pointer-events: none;
+}

@@ -348,6 +348,7 @@
 
   .footer__topdrop {
     position: relative;
+    pointer-events: auto;
   }
 
   .footer__topdrop::after {

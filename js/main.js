@@ -23,6 +23,7 @@ $(function () {
     );
     $(this).addClass("tab--active");
     $($(this).attr("href")).addClass("tabs__content--active");
+    $(".product-slider").slick("setPosition");
   });
 
   $(".product-item__favorite").on("click", function () {
