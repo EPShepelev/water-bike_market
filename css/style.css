@@ -79,6 +79,10 @@ body {
   display: none;
 }
 
+.menu-mobile__list.menu-mobile__list--active {
+  z-index: 20;
+}
+
 .menu-mobile__linewrapper {
   display: none;
 }
